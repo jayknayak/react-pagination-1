@@ -1,0 +1,32 @@
+.pagination > li {
+  display: inline-block;
+  padding-left: 0;
+}
+.pagination > li.active > a {
+  color: #fff;
+  background-color: gray !important;
+  border-color: gray !important;
+  cursor: auto;
+}
+.pagination > li > span:focus {
+  color: #fff;
+  border-color: red !important;
+  border: 0px none;
+}
+.pagination > li > span:active {
+  color: #fff;
+  border-color: red !important;
+  border: 0px none;
+}
+.pagination > li > span:target {
+  color: #fff;
+  border-color: red !important;
+  border: 0px none;
+}
+
+.pagination > li > a {
+  color: inherit;
+}
+.pagination > li > a:hover {
+  color: inherit;
+}
